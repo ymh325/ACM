@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "7ea94202d3f95732",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbf392a951604c4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9949732c5b792041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "传统算法/数据结构/线段树/可持久化线段树.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "可持久化线段树"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2cdedbfbc3ba40a8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "477d982fc5ed215d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "a5b80bb98a5f2235",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "1c82794da0361b39",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "2708aea755c25792",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      },
+      {
+        "id": "6f73375b26f55be1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "19cc25651a19c789",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d90d92ed4b074518",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "传统算法/数据结构/线段树/可持久化线段树.md",
+            "collapseAll": false,
+            "extraContext": true,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "e2fd4791f29c57fd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "README.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "e57c594ae3d5742d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "传统算法/数据结构/线段树/可持久化线段树.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9949732c5b792041",
+  "lastOpenFiles": [
+    "传统算法/数据结构/线段树/线段树.md",
+    "传统算法/数论/关于质数/质数判定/埃氏筛法.md",
+    "传统算法/数论/关于质数/质数判定/素数（质数）.md",
+    "传统算法/数论/进制转换.md",
+    "算法错题集/超哥的果园.md",
+    "README.md",
+    "传统算法/图论/连通性/强连通分量.md",
+    "传统算法/传统算法-HOME.md",
+    "传统算法/数据结构/线性表/队列 queue/单调队列.md"
+  ]
+}
