@@ -49,8 +49,8 @@ int main(){
         e[a].push_back(b);//建边
         din[b]++;//更新入度的数量
     }
-    if(!toposort())cout<<-1;
-    else for(auto i:tp)cout<<i<<" ";   
+    if(!toposort())cout << -1;
+    else for(auto i:tp)cout << i << " ";   
     return 0;
 }
 ```
