@@ -41,7 +41,7 @@ AC自动机在 $Trie$ 树上添加 **Fail 指针**，该指针和 $KMP$ 中的 *
 
 ## 构造Trie树
 
-```c++
+```cpp
 int ch[N][26],cnt[N],idx;
 int ne[N];
 int 
@@ -99,7 +99,7 @@ void insert(char *s){ //建树
 
 $n$ 为模式串总长度
 
-```C++
+```cpp
 void build(){
     queue<int> q;
     for(int i=0;i<26;i++)
@@ -158,7 +158,7 @@ m 为主串长度，n 为模式串的总长度
 
 那么 `query()` 返回的结果为 2，出现的模式串为 `ab`、`cd`
 
-```c++
+```cpp
 int query(char *s){
     int ans=0;
     for(int k=0,i=0;s[k];k++){

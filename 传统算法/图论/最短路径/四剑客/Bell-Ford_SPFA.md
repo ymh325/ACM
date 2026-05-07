@@ -24,7 +24,7 @@
 
 ## 代码展示
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -91,7 +91,7 @@ int main(){
 
 ## 代码展示
 
-```C++
+```cpp
 #include <iostream>
 #include <vector>
 #include <cstring>

@@ -36,7 +36,7 @@
 
 4.重复2,3步操直到列为空
 
-```c++
+```cpp
 struct edge{int v,w;}; //v表示所指向的点，w表示边权
 const int N = 1e5+5;
 vector<edge> e[N];
@@ -71,7 +71,7 @@ void Dijkstra(int s){
 
 - **记录**
 
-```c++
+```cpp
 if(d[v]>d[u]+w){
     d[v]=d[u]+w;
     per[v]=u;//!!!此处记录一下
@@ -81,7 +81,7 @@ if(d[v]>d[u]+w){
 
 - **递归输出**
 
-```c++
+```cpp
 void dfs_path(int u){
     if(u==s){
         cout<<u<<" ";
@@ -108,7 +108,7 @@ void dfs_path(int u){
 
 ## 代码 $O(n^2)$
 
-```c++
+```cpp
 struct edge{int v,w;};
 vector<edge> e[N];
 int d[N],vis[N];

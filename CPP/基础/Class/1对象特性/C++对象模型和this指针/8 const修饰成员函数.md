@@ -13,7 +13,7 @@
 - 声明对象前加const称该对象为常对象
 - 常对象只能调用常函数
 
-```c++
+```cpp
 class per{
 public:
   	int age;

@@ -79,7 +79,7 @@
 
 - $lowbit(x)$：提取  $x$ 的低位2次幂
 
-  ```C++
+  ```cpp
   int lowbit(int x){
       return x&-x;
   }
@@ -89,7 +89,7 @@
 
 - **向后修：**
 
-  ```C++
+  ```cpp
   void change(int x,int k){
       while(x<=n){
           s[x]+=k;
@@ -102,7 +102,7 @@
 
 - **向前查 前缀和**，查询前x项和
 
-  ```C++
+  ```cpp
   int query(int x){
       int res=0;
       while(x){
@@ -115,7 +115,7 @@
 
 - **对于查询 `[x,y]` 区间和**
 
-  ```C++
+  ```cpp
   //区间和即是前缀和之差
   sum[x,y]=query(y)-query(x-1);
   ```
