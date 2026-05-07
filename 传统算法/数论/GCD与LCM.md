@@ -24,7 +24,7 @@
 
 - **递归实现**
 
-```C++
+```cpp
 int GCD(int a,int b){
     return b==0? a : GCD(b,a%b);
 }
@@ -34,7 +34,7 @@ int GCD(int a,int b){
 
 - **迭代实现**
 
-  ```C++
+  ```cpp
   int GCD(int a, int b) {
       while (b != 0) {       // 当b非0时持续辗转相除
           int temp = a % b;  // 计算余数
@@ -49,7 +49,7 @@ int GCD(int a,int b){
 
 - **鲁棒版(处理负数)**
 
-  ```c++
+  ```cpp
   int GCD(int a, int b) {
       a = abs(a);  // 转为非负数
       b = abs(b);
@@ -118,7 +118,7 @@ int GCD(int a,int b){
 
 lcm (最小公倍数)
 
-```C++
+```cpp
 int lcm(int a,int b){
     reture a*b/gcd(a,b);
 }

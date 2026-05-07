@@ -22,7 +22,7 @@ this指针的用途：
 
 - 当形参和成员变量同名时，可用this指针来区分
 
-```c++
+```cpp
 class per{
 public:
   	int age;
@@ -36,7 +36,7 @@ public:
 
 - 在类的非静态成员函数中**返回对象本身**，可使用return*this
 
-```c++
+```cpp
 class per{
 public:
   	int age;

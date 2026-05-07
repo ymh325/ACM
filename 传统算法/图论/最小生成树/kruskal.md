@@ -37,7 +37,7 @@
 
 ### 代码 $(mlogm)$
 
-```c++
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -98,7 +98,7 @@ signed main(){
 
 我们对于这个代码片段进行修改即可
 
-```c++
+```cpp
 if(u!=v){
 	fa[u] = v;
 	ans+=e[i].w;
@@ -108,7 +108,7 @@ if(u!=v){
 
 
 
-```C++
+```cpp
 if(u!=v){
 	fa[u] = v;
 	ans+=e[i].w;

@@ -13,7 +13,7 @@
 1. 路径经过 `k` 点，**继承原值：**`d[k,i,j] = d[k-1,i,j]`
 2. 路径记过 `k` 点，**松弛操作：**`d[k,i,j] = d[k-1,i,j] + d[k-1,k,j]`
 
-```c++
+```cpp
 void floyd(){
     for(int k=1;k<=n;k++)
         for(int i=1;i<=n;i++)
@@ -52,7 +52,7 @@ void floyd(){
 
 那么代码可以变成如下：
 
-```c++
+```cpp
 void floyd(){
     for(int k=1;k<=n;k++)
         for(int i=1;i<=n;i++)
@@ -67,7 +67,7 @@ void floyd(){
 
 我们先抬出模板。
 
-```c++
+```cpp
 void floyd(){
     for(int k=1;k<=n;k++)
         for(int i=1;i<=n;i++)
