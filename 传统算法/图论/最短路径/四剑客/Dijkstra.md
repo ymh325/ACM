@@ -44,7 +44,7 @@ int d[N],vis[N];
 priority_queue<pair<int,int>> q;
 
 void Dijkstra(int s){
-    for(int i=0;i<=n;i++)d[i] = 1e9;
+    for(int i=0;i<=n;i++)d[i] = 1e18;
     d[s]=0;q.push({0,s});
     while(q.size()){
         //离源点最近的点会被优先提出
