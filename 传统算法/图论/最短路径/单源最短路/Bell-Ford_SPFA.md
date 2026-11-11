@@ -1,4 +1,11 @@
-# Bell-Ford1
+---
+author: HAOer
+data:
+tags:
+related:
+---
+
+# Bellman-Ford 与 SPFA
 
 > **能够处理负边权的情况，但无法处理存在负权回路的情况**
 
